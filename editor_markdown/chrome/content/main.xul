@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window id="main" title="Editor de Archivos Markdown" width="900" height="500"
+           xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/javascript" src="chrome://editor_markdown/content/main.js"/>
+  <script type="application/javascript" src="chrome://editor_markdown/content/d3.js"/>
+  <script type="application/javascript" src="chrome://editor_markdown/content/Markdown.Converter.js"/>
+  <menubar id="viewer-menubar">
+    <menu id="file-menu" label="Archivo">
+      <menupopup id="file-popup">
+        <menuitem label="Abrir " oncommand="file.open();"/>
+      </menupopup>
+    </menu>
+  </menubar>
+  <vbox style="max-width:900px;min-height:550px;max-height:0px;width:0px;">
+		 <hbox>
+		 <label value="                                                   Markdown                                                                                                                                              Html"/>
+		 </hbox>
+		 <hbox flex="1">
+         <box flex="1" />
+		</hbox>
+    </vbox>
+</window>

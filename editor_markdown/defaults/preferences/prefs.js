@@ -1,0 +1,1 @@
+pref("toolkit.defaultChromeURI", "chrome://editor_markdown/content/main.xul");
